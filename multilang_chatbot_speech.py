@@ -10,23 +10,6 @@ from azure.ai.translation.text import TranslatorCredential, TextTranslationClien
 import azure.cognitiveservices.speech as speech_sdk
 
 """
-#Question: Section B, Part B, No.5:
-
-This section of the code builds upon the code in Section B, Parts A and B, by expanding it to include the following additional features:  
-(i) Integration of speech-to-text functionality, and  
-(ii) Integration of text-to-speech functionality.
-Descriptions: ask questions to chatbot via speech and chatbot response answers from text to speech.
-......................................
-Start Run 
-1.Right click multilang_chatbot_speech.py click "Open Integreated Terminal"
-2.Enter text: "python multilang_chatbot_speech.py"
-#Enter 'speech' to play the song or speech for speech input, 'text' to type your question, or 'quit' to exit
-3.Enter "speech" for ask question with input speech.
-- play audio voice file(eng_q1.wav/eng_2.wav)or speech to ask questions chatbot.(for ask chatbot question from speech to text)
-- chat will reply from text to speech.
-4.Enter "text" for ask question chatbot with input text.
-5.Enter "quit" to exit program.
-
 .......................................
 Noted: Reference : To get Audio file convert from text to voice file : https://voicemaker.in
 
