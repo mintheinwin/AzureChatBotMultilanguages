@@ -6,17 +6,6 @@ from azure.ai.language.questionanswering import QuestionAnsweringClient
 from azure.ai.translation.text.models import InputTextItem
 from azure.ai.translation.text import TranslatorCredential, TextTranslationClient
 
-"""
-The Python file integrates the following:  
-#Question: Section B, Part A, No. 5 (used for English chatbot)  
-#Question: Section B, Part B, No. 4 (used for multilanguage chatbot)  
-Start Run 
-1. Right click multilang_chatbot.py click "Open Integreated Terminal"
-2. Enter text : "python multilang_chatbot.py"
-3. Input text questions english or chinese or japan. 
-   chatbot will reply answer your input language.
-4.Enter "quit" to exit program.
-"""
 def main():
     try:
         # Load environment variables
